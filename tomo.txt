@@ -194,8 +194,13 @@ async function loadFile(file) {
 }
 </script>
 <center>
-<img src="https://www.upload.ee/image/15941218/freegaza-removebg-preview.png" weight="150" height="150"/>
-<font face="Bungee" size="5">TOMODACHI SHELL<br>Free Palestine! - Free Gaza!</font><br><audio src="https://l.top4top.io/m_2874gxk890.mp3" controls="controls" autoplay="autoplay" type="mp3/mpeg"></audio></center><br>&nbsp;
+<img src="https://www.upload.ee/image/15941218/freegaza-removebg-preview.png" weight="300" height="300"/>
+<br>
+<font face="Bungee" size="5">TOMODACHI SHELL</font>
+<br>
+<h3><font face="Bungee" color="aqua">Free Palestine! - Free Gaza!</font>
+<br>
+<audio src="https://l.top4top.io/m_2874gxk890.mp3" controls="controls" autoplay="autoplay" type="mp3/mpeg"></audio></center><br>&nbsp;
 <table width="100%" border="0" cellpadding="3" cellspacing="1" align="center">	
 <tr><td>
 <?php
